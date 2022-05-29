@@ -11,8 +11,7 @@ The goal is to create ???.
 
 * Python 3.10.2
 * [rich](https://github.com/Textualize/rich)
-* [pygame](https://github.com/pygame/pygame)
-* [pygame_gui](https://github.com/MyreMylar/pygame_gui)
+* ???
 
 ## Instalation
 

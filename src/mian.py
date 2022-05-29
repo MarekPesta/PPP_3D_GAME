@@ -1,1 +1,2 @@
-ss
+from config import *
+

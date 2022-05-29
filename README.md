@@ -10,7 +10,8 @@ The goal is to create ???.
 ## Libraries and Tools
 
 * Python 3.10.2
-* [rich](https://github.com/Textualize/rich)
+* [rich](https:/
+/github.com/Textualize/rich)
 * ???
 
 ## Instalation

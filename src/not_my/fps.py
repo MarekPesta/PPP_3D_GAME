@@ -58,8 +58,8 @@ class Enemy(Entity):
 
     def update(self):
         dist = distance_xz(player.position, self.position)
-        if dist > 40:
-            return
+        # if dist > 40:
+        #     return
 
         self.health_bar.alpha = max(0, self.health_bar.alpha - time.dt)
 

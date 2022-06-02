@@ -13,28 +13,34 @@ class MyWorld:
         self.wall4 = Entity(model='quad', collider='box', x=-32, y=32, z=0, rotation_y=270, scale=64, texture='wall', texture_scale=(8, 8))
         self.top = Entity(model='quad', collider='box', x=0, y=64, z=0, rotation_x=-90, scale=64, texture='top', texture_scale=(4, 4))
 
-        for z in range(2):
-            for x in range(2):
-                CubeSolid(position=(x, 1, z))
+        # for z in range(2):
+        #     for x in range(2):
+        #         CubeSolid(position=(x, 1, z))
 
-        for z in range(2):
-            for x in range(2):
-                CubeSolid(position=(x+31, 1, z+31))
+        # for z in range(2):
+        #     for x in range(2):
+        #         CubeSolid(position=(x+31, 1, z+31))
 
-        for z in range(2):
-            for x in range(2):
-                CubeSolid(position=(x-32, 1, z-32))
+        # for z in range(2):
+        #     for x in range(2):
+        #         CubeSolid(position=(x-32, 1, z-32))
 
-        for z in range(2):
-            for x in range(2):
-                CubeSolid(position=(x-32, 1, z+31))
+        # for z in range(2):
+        #     for x in range(2):
+        #         CubeSolid(position=(x-32, 1, z+31))
 
-        for z in range(2):
-            for x in range(2):
-                CubeSolid(position=(x+31, 1, z-32))
+        # for z in range(2):
+        #     for x in range(2):
+        #         CubeSolid(position=(x+31, 1, z-32))
 
-        shootables_parent = Entity()
-        mouse.traverse_target = shootables_parent
+        # for i in range(16):
+        #     Entity(model='cube', origin_y=-.5, scale=2, texture='solid_cube', texture_scale=(1,2),
+        #         x=random.uniform(-8,8),
+        #         z=random.uniform(-8,8) + 8,
+        #         collider='box',
+        #         scale_y = random.uniform(2,3),
+        #         color=color.hsv(0, 0, random.uniform(.9, 1))
+        #         )
 
 
 class CubeSolid(Button):

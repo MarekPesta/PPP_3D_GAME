@@ -10,7 +10,7 @@ monsterGenerator = MonsterGenerator(player=player)
 
 application.paused = True
 
-first_text = Text(text=f'Press ENTER to start', scale=2, x=-0.1, y=0.1)
+first_text = Text(text=f'Press ENTER to start', scale=1, x=-0.1, y=0.1)
 
 
 def input(key):

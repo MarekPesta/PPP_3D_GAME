@@ -13,6 +13,7 @@ The goal is to create some FPS games.
 * Python 3.10.2
 * [rich](https://github.com/Textualize/rich)
 * ursina
+* numpy
 
 ## Instalation
 
@@ -22,6 +23,7 @@ The goal is to create some FPS games.
 ```sh
 python -m pip install rich
 python -m pip install ursina
+python -m pip install numpy
 ```
 
 3. Run main.py

@@ -10,9 +10,8 @@ The goal is to create ???.
 ## Libraries and Tools
 
 * Python 3.10.2
-* [rich](https:/
-/github.com/Textualize/rich)
-* ???
+* [rich](https://github.com/Textualize/rich)
+* ursina
 
 ## Instalation
 
@@ -21,7 +20,7 @@ The goal is to create ???.
 
 ```sh
 python -m pip install rich
-python -m pip install ...
+python -m pip install ursina
 ```
 
 3. Run main.py

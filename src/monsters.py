@@ -69,9 +69,10 @@ class Monster1(Enemy):
 
         obj ='monsters/monster1'
         skin = 'monsters/monster1'
-        super().__init__(player=player, obj=obj, skin=skin, scale=1, origin_y=-2, hp=1000, **kwargs)
+        super().__init__(player=player, obj=obj, skin=skin, scale=1, origin_y=-2, hp=50, **kwargs)
 
-        self.speed = 1
+        self.max_hp = 50
+        self.speed = 10
 
 
 class Monster2(Enemy):
@@ -80,10 +81,10 @@ class Monster2(Enemy):
 
         self.obj ='monsters/monster2'
         self.skin = 'monsters/monster2.jpg'
-        super().__init__(player=player, obj=self.obj, skin=self.skin, scale=0.02, origin_y=0, hp=100, **kwargs)
+        super().__init__(player=player, obj=self.obj, skin=self.skin, scale=0.02, origin_y=0, hp=120, **kwargs)
 
-        self.max_hp = 100
-        self.speed = 60
+        self.max_hp = 120
+        self.speed = (1/0.02)*3
 
 
 class Monster3(Enemy):
@@ -92,10 +93,10 @@ class Monster3(Enemy):
 
         self.obj ='monsters/monster3'
         self.skin = 'monsters/monster3'
-        super().__init__(player=player, obj=self.obj, skin=self.skin, scale=1, origin_y=0, hp=100, **kwargs)
+        super().__init__(player=player, obj=self.obj, skin=self.skin, scale=1, origin_y=0, hp=500, **kwargs)
 
-        self.max_hp = 100
-        self.speed = 5
+        self.max_hp = 500
+        self.speed = 2
 
 
 class MonsterGenerator():
